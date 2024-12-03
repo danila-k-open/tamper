@@ -136,6 +136,24 @@ tamper.implode:
       type: string
       label: 'String glue'
 
+tamper.set_unique_id:
+  mapping:
+    set_unicue_id:
+      type: string
+      label: 'String prefix'
+    set_unicue:
+      type: boolean
+      label: 'Use value'
+
+tamper.null_value_fix:
+  mapping:
+    null_value:
+      type: string
+      label: 'String null value'
+    fix_value:
+      type: string
+      label: 'String fix value'
+
 tamper.keyword_filter:
   mapping:
     words:
